@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Projekt i Elektroniskpublicering (TNMK30)-->
+<!--Grupp 6 - Stina Grenholm, Kristina Engström, Therese Ramböl, Ellen Häger--> 
+
+<head>
+		<title>Projekt - Grupp 6</title>
+		<meta name="projekt,TNMK30,grupp 6" content="mysql,databas,lego" />
+		<meta name="mysql,databas,lego" content="HTML,CSS,XML,JavaScript" />
+		<link rel="stylesheet" type="text/css" href="ProjektTNMK30.css" />
+		<script type="text/javascript" src="ProjektTNMK30.js"></script>
+</head>
+<body>
+<!--En liten förklaring vad sidan gör.--> 
+<div class="style3"><h2>Ensam bit söker sats.</h2>
+				Har du en legobit hemma som inte passar in någonstans?<br />
+				Vet du inte i vilken sats den hör hemma?<br />
+				Då är detta sidan för dig!<br />
+				Sök på ID-nummer eller några beskrivande ord så hjälper vi dig och din bit att hitta rätt!
+				<br />
+				Hjälp den hitta hem. <br /> </div>
+<div class="style1">
+<form id="form" action="ProjektTNMK30.php" method="get" onsubmit="return validate()">
+<p>
+			<label>
+				
+				Ange bitnummer: &nbsp;
+				<br />
+				<input type="text" name="setnr" size="20" />
+			</label>
+</p>
+<p>
+			<label>
+				Ange sökord: &nbsp;
+				<br />
+				<input type="text" name="search" size="20" />
+			</label>	
+		<input type="submit" value="Sök"/>
+</p>
+	
+
+
+</form>
+</div>
+<div class="style2">
+<!--Validering--> 
+<p>
+	<a href="http://validator.w3.org/check/referer"><img
+	src="http://www.w3.org/Icons/valid-xhtml10"
+	style="border:0;width:88px;height:31px" alt="Valid XHTML 1.0!" /></a>
+
+	<a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+	src="http://jigsaw.w3.org/css-validator/images/vcss"
+	style="border:0;width:88px;height:31px" alt="Valid CSS!" /></a>
+</p>
+</div>
+</body></html>
